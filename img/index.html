@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Trabajo IA</title>
+</head>
+
+<body>
+    <header>
+        <div class="titulo_imagen">
+            <div class="texto_header">
+                <h1 class="title">Amazon<br>Comprehend</h1>
+                <img class="slogan" src="./img/slogan.gif" alt="">
+            </div>
+            <img class="aws_img" src="./img/logos.png" alt="">
+
+        </div>
+    </header>
+    <div class="introduccion-container">
+        <div class="titulo_introduccion">
+            <img class="uno" src="./img/uno.png" alt="">
+            <h2>Introducción</h2>
+        </div>
+        <div class="introduccion">
+            <div class="introduccion-izq">
+                <p>Tareas como organizar las facturas del agua, agrupar los recibos de pago… resultan bastante
+                    pesadas. Por suerte,
+                    la herramienta Amazon Comprehend procesa toda la información de un archivo y la agrupa en palabras
+                    clave
+                    y conjuntos previamente entrenados.
+                    Puede reconocer organizaciones, personas, lugares, fechas…</p>
+            </div>
+        </div>
+        <div class="titulo_opciones">
+            <img class="uno" src="./img/dos.png" alt="">
+            <h2>¿Qué ofrece?</h2>
+        </div>
+        <div class="opciones_container_img">
+            <div class="opciones_item">
+                <div class="inner">
+                    <img src="./img/clave__icon.png" alt="">
+
+                    <h3>Extracción de frases clave</h3>
+                    <p>Obtiene frases clave o temas de conversación
+                        Genera puntuación de confianza para comprobar la frase clave</p>
+                </div>
+            </div>
+            <div class="opciones_item">
+                <div class="inner">
+                    <img class="img_bug" src="./img/opiniones__icon.png" alt="">
+                    <h3 class="texto_bug">Análisis de opiniones</h3>
+                    <p>Obtiene la opinión general de un texto
+                        Opinión positiva, negativa, neutra o combinación</p>
+                </div>
+            </div>
+            <div class="opciones_item">
+                <div class="inner">
+                    <img src="./img/analisis__icon.png" alt="">
+                    <h3>Análisis sintáctico</h3>
+                    <p>Permite analizar textos con categorías gramaticales y tokenización
+                        Identifica etiquetas y límites de palabras</p>
+                </div>
+            </div>
+            <div class="opciones_item">
+                <div class="inner">
+                    <img src="./img/reconocimiento__icon.png" alt="">
+
+                    <h3>Reconocimiento de entidades</h3>
+                    <p>Reconoce entidades nombradas → Personas, Lugares, Ubicaciones
+                        Categoriza entidades automáticamente</p>
+                </div>
+            </div>
+            <div class="opciones_item">
+                <div class="inner">
+                    <img src="./img/medical__icon.png" alt="">
+
+                    <h3>Comprehend Medical</h3>
+                    <p>Extrae datos de salud de textos médicos
+                        Lenguaje natural (PLN) y cumple los requisitos de la HIPAA</p>
+                </div>
+            </div>
+        </div>
+        <div class="titulo_funcionamiento">
+            <img class="uno" src="./img/tres.png" alt="">
+            <h2>Ejemplos reales</h2>
+        </div>
+        <div class="container_func">
+            <div class="inner_func">
+                <img src="./img/medical.png" alt="">
+                <h3>Comprehend Medical</h3>
+                <p>Procesa información como dolencias médicas, medicamentos, dosis, pruebas, tratamientos y
+                    procedimientos. Ejemplo: Centro de investigación contra el cáncer Fred Hutchinson (objetivo curar el
+                    cáncer antes del 2025)</p>
+            </div>
+            <div class="inner_func">
+                <img class="img_bug_func" src="./img/visioncritical.png" alt="">
+                <h3>Adaptado al cliente</h3>
+                <p>VisionCritical en su plataforma Sparq crea perfiles dinámicos de sus clientes analizando los
+                    comentarios cualitativos de
+                    los mismos, llegando a determinar si el comentario es positivo, negativo o neutral con más del 90%
+                    de precisión.</p>
+            </div>
+            <div class="inner_func">
+                <img src="./img/videopeel.png" alt="">
+                <h3>Otros servicios</h3>
+                <p>VideoPeel es una plataforma que crea perfiles dinámicos de los clientes analizando vídeos de éstos
+                    hablando del
+                    producto. Para ello, la plataforma integra Amazon Transcribe, Amazon Comprehend y Amazon
+                    Rekognition.</p>
+            </div>
+        </div>
+    </div>
+    <div class="opciones">
+        <div class="titulo_empezar">
+            <img class="uno" src="./img/cuatro.png" alt="">
+            <h2>¿Cómo empezar?</h2>
+        </div>
+
+
+
+
+    </div>
+
+    </div>
+    <div class="funcionamiento">
+        <div class="container_empezar">
+            <div class="video_div">
+                <video class="video" src="./img/video.mp4" type="video/mp4" controls></video>
+
+            </div>
+            <div class="pasos">
+                <div class="paso">
+
+                    <img class="uno" src="./img/uno.png" alt="">
+                    <h2>Clasificación personalizada</h2>
+
+                </div>
+                <p>Para empezar a utilizar Amazon Comprehend de manera libre, tendrás que elegir la opción de
+                    “Custom Classification”
+                    dentro de Amazon Comprehend, donde se podrán ajustar los parámetros del sistema de
+                    reconocimiento.</p>
+                <div class="paso">
+
+                    <img class="uno" src="./img/dos.png" alt="">
+                    <h2>Seleccionar bucket S3 con archivo/s CSV</h2>
+
+                </div>
+                <p>Acto seguido, entrenaremos un conjunto, este puede ser de tipo multiclase o de tipo
+                    multietiqueta. El entrenamiento se
+                    recoge desde archivos manifests (creados por el servicio de etiqueta de datos, Amazon
+                    SageMaker), hasta 5 y estos pueden
+                    estar en diferentes ubicaciones o directamente desde un archivo .csv, todo dentro de
+                    repositorios Bucket S3. Podemos seleccionar también un bucket para guardar el output del
+                    entrenamiento.
+                </p>
+                <div class="paso">
+
+                    <img class="uno" src="./img/tres.png" alt="">
+                    <h2>Role IAM y entrenamiento</h2>
+
+
+                </div>
+                <p>Establecemos un role IAM para acceder a los buckets y al resto de opciones no le daremos importancia.
+                    Una vez configurado todo pulsamos en entrenar y dejaremos que el servicio haga su trabajo.</p>
+            </div>
+
+        </div>
+        <div class="titulo_practica">
+            <img class="uno" src="./img/cinco.png" alt="">
+            <h2>Ejemplo práctico</h2>
+        </div>
+        <div class="ejemplo_container">
+            <div class="ejemplo1">
+                <h3>Reconocimiento de entidades</h3>
+                <iframe src="https://replit.com/@fabiohl9/prueba2?lite=true"
+                    style="border: 0; width: 100%; height: 600px;" allowfullscreen></iframe>
+            </div>
+            <div class="ejemplo1">
+                <h3>Análisis de opiniones</h3>
+                <iframe src="https://replit.com/@fabiohl9/prueba3?lite=true"
+                    style="border: 0; width: 100%; height: 600px;" allowfullscreen></iframe>
+            </div>
+
+        </div>
+        <div class="titulo_api">
+            <img class="uno" src="./img/seis.png" alt="">
+            <h2>API y procesamiento</h2>
+        </div>
+
+
+    </div>
+    <div class="como_empezar">
+
+    </div>
+    <div class="ejemplos">
+        <div class="ejemplo_api">
+            <div class="ejemplo1api">
+                <h3>Reconocimiento de entidades</h3>
+                <div class="caja_api">
+                    <div class="api_horizontal">
+                        <div class="api_vertical">
+                            <h5>Hay muchas apis, cada una especializada en una función concreta. De esta forma,
+                                empleando
+                                DetectEntities,
+                                BatchDetectEntities o StartEntitiesDetectionJob podemos detectar entidades en función de
+                                los
+                                siguientes parámetros:</h5>
+                            <p>Así, en el texto “David, Passeig de la Universitat 3, 2021” se reconocería “David” como
+                                PERSON,
+                                “Passeig de la
+                                Universitat 3” como LOCATION y “2021” como DATE. Respuesta a una operación:</p>
+                        </div>
+                        <img src="/img/entidades.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="ejemplo1api">
+                <h3>Análisis de opiniones</h3>
+                <div class="caja_api">
+                    <div class="api_horizontal">
+                        <div class="api_vertical">
+                            <h5>Otro tipo de detección es la opinión del texto para saber si es positiva, negativa,
+                                neutral o mixta, en función de las palabras utilizadas. Para ello
+                                utilizamos DetectSentiment, BatchDetectSentiment o StartSentimentDetectionJob:</h5>
+                            <p>Así, en el texto "El producto es fabuloso, quizás lo compre otra vez más adelante" la
+                                respuesta sería:</p>
+                        </div>
+                        <img src="/img/analisis.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container_proc">
+            <div class="inner_proc">
+                <h3>Procesamiento de un solo documento</h3>
+                <p>llama a Amazon Comprehend con un único documento y recibe una respuesta síncrona</p>
+            </div>
+            <div class="inner_proc">
+                <h3>Procesamiento síncrono de varios documentos</h3>
+                <p>llama a Amazon Comprehend con una colección de hasta 25 documentos y recibe una respuesta síncrona
+                </p>
+            </div>
+            <div class="inner_proc">
+                <h3>Procesamiento por lotes asincrónico</h3>
+                <p>Coloca una colección de documentos en un bucket de Amazon S3 e inicia una operación asíncrona para
+                    analizar los
+                    documentos. Los resultados del análisis se devuelven en un bucket de S3</p>
+            </div>
+        </div>
+        <div class="titulo_conclusion">
+            <img class="uno" src="./img/siete.png" alt="">
+            <h2>Conclusión</h2>
+        </div>
+        <div class="conclusion_p">
+            <p>AWS Comprehend nos ofrece un gran abanico de posibilidades para reconocer y analizar todo tipo de textos.
+                Es capaz de reconocer la mayoria de los idiomas y extraer palabras clave para su análisis y
+                entrenemaiento. En resumen, se trata de una herramienta muy potente que cada vez estará más presente en
+                nuestro día a día (análisis de reviews, datos personales, etc.)</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Amazon Comprehend | Grupo 3</p>
+    </footer>
+</body>
+
+</html>
