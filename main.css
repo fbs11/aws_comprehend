@@ -13,6 +13,7 @@
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   cursor: pointer;
+  text-align: justify;
 }
 
 .inner:hover {
@@ -58,6 +59,7 @@
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   cursor: pointer;
+  text-align: justify;
 }
 
 .inner_func:hover {
@@ -91,5 +93,85 @@
 .inner_func p {
   color: #b565ff;
   font-size: 1.3rem;
+}
+
+.inner_proc {
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  width: 30%;
+  -webkit-clip-path: inset(0px 0px 0px 0px round 20px);
+          clip-path: inset(0px 0px 0px 0px round 20px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  text-align: justify;
+}
+
+.inner_proc:hover {
+  background: white;
+}
+
+.inner_proc h3 {
+  color: #b565ff;
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.inner_proc img {
+  margin: 0 auto;
+  width: 48%;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-left: 37px;
+}
+
+.inner_proc:hover img {
+  color: rgba(255, 255, 255, 0);
+}
+
+.inner_proc p {
+  color: #b565ff;
+  font-size: 1.3rem;
+}
+
+.introduccion-izq {
+  background: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  width: 85%;
+  -webkit-clip-path: inset(0px 0px 0px 0px round 20px);
+          clip-path: inset(0px 0px 0px 0px round 20px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  color: #b565ff;
+}
+
+.caja_api {
+  background: white;
+  padding: 1.8em;
+  border-radius: 10px;
+  width: 100%;
+  -webkit-clip-path: inset(0px 0px 0px 0px round 20px);
+          clip-path: inset(0px 0px 0px 0px round 20px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  color: #b565ff;
+  height: 480px;
+}
+
+.conclusion_p {
+  background: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  width: 85%;
+  -webkit-clip-path: inset(0px 0px 0px 0px round 20px);
+          clip-path: inset(0px 0px 0px 0px round 20px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  color: #b565ff;
 }
 /*# sourceMappingURL=main.css.map */
