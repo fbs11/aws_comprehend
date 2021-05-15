@@ -5,6 +5,10 @@
     font-family: 'Comfortaa';
 }
 
+html{
+    font-family: 'Comfortaa';
+}
+
 @font-face {
   font-family: WorkSans;
   src: url(./WorkSans-Regular.ttf);
@@ -173,8 +177,8 @@ header{
 }
 
 .inner_func .img_bug_func{
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 45px;
 }
 
 /* Como empezar */
