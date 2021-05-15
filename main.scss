@@ -1,0 +1,90 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(WorkSans-Regular.ttf);
+}
+
+    .inner{
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        width: 320px;
+        clip-path: circle(25% at 40% 26%) ;
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            clip-path: circle(75%);
+            background: white;
+        }
+
+        h3{
+            color: #b565ff;
+            margin: 0;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin: 0 auto;
+            width: 48%;
+            transition: color .5s;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top: 15px;
+            margin-left: 37px;
+        }
+
+        &:hover img{
+            color: rgba(255,255,255,0);
+        }
+
+        p{
+            color: #b565ff;
+            font-size: 1.3rem;
+        }
+    }
+    .inner_func{
+        background: white;
+        padding: 1em;
+        border-radius: 10px;
+        width: 30%;
+        clip-path: inset(0px 0px 210px 0px round 20px);
+        transition: all .5s ease-in-out;
+        cursor: pointer;
+
+        &:hover{
+            clip-path: inset(0px 0px 0px 0px);
+            background: white;
+        }
+
+        h3{
+            color: #b565ff;
+            margin: 0;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        img {
+            margin: 0 auto;
+            width: 80%;
+            transition: color .5s;
+            position: relative;
+            margin-bottom: 30px;
+            margin-top: 15px;
+            margin-left: 37px;
+        }
+
+        &:hover img{
+            color: rgba(255,255,255,0);
+        }
+
+        p{
+            color: #b565ff;
+            font-size: 1.3rem;
+        }
+    }
+
+    
+
+   
+

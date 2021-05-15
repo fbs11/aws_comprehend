@@ -1,0 +1,95 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(WorkSans-Regular.ttf);
+}
+
+.inner {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  width: 320px;
+  -webkit-clip-path: circle(25% at 40% 26%);
+          clip-path: circle(25% at 40% 26%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.inner:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  background: white;
+}
+
+.inner h3 {
+  color: #b565ff;
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.inner img {
+  margin: 0 auto;
+  width: 48%;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-left: 37px;
+}
+
+.inner:hover img {
+  color: rgba(255, 255, 255, 0);
+}
+
+.inner p {
+  color: #b565ff;
+  font-size: 1.3rem;
+}
+
+.inner_func {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  width: 30%;
+  -webkit-clip-path: inset(0px 0px 210px 0px round 20px);
+          clip-path: inset(0px 0px 210px 0px round 20px);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.inner_func:hover {
+  -webkit-clip-path: inset(0px 0px 0px 0px);
+          clip-path: inset(0px 0px 0px 0px);
+  background: white;
+}
+
+.inner_func h3 {
+  color: #b565ff;
+  margin: 0;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.inner_func img {
+  margin: 0 auto;
+  width: 80%;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-left: 37px;
+}
+
+.inner_func:hover img {
+  color: rgba(255, 255, 255, 0);
+}
+
+.inner_func p {
+  color: #b565ff;
+  font-size: 1.3rem;
+}
+/*# sourceMappingURL=main.css.map */
